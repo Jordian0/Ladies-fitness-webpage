@@ -1,0 +1,7 @@
+.content {
+    width: 100%;
+    height: 800px;
+    background-image: url('./assets/imgs/slide1.jpg') ;
+    background-repeat: no-repeat;
+    background-size: 1856px 800px;
+}

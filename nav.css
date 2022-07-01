@@ -1,0 +1,27 @@
+#nav {
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+}
+
+#nav li {
+    list-style: none;
+}
+
+#nav li a {
+    text-decoration: none;
+    color: coral;
+    font-size: 1.2em;
+    padding: 10px;
+}
+
+#nav li img {
+    width: 72px;
+    height: 72px;
+    /* border-radius: 50%; */
+}
+
+#nav .nav-2 {
+    display: flex;
+    flex-direction: row;
+}
