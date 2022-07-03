@@ -9,6 +9,11 @@
     /* background-color: rgba(125,336,568,0.2); */
     justify-content: space-between;
     /* align-items: center; */
+
+}
+
+#nav::after {
+    background-color: rgb(56, 37, 92);
 }
 
 #nav ul {
