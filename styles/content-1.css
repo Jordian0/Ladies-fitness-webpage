@@ -44,7 +44,7 @@
     /* background-color: #ccc; */
 }
 
-.course-1 .description-course {
+.course-1 .description-course-1 {
     flex-basis: 50%;
     margin: 180px 0;
     font-size: 19px;
@@ -52,27 +52,32 @@
 
 }
 
-.course-1 .description-course h4 {
+.course-1 .description-course-1 h4 {
     font-size: 44px;
     margin-bottom: 20px;
     font-weight: bold;
     margin: 0 80px;
 }
 
-.course-1 .description-course p {
+.course-1 .description-course-1 p {
     margin: 20px 80px 32px;
 }
 
-.course-1 .description-course .detail-course {
+.course-1 .description-course-1 .detail-course-1 {
     margin-left: 80px;
     list-style: none;
 }
 
-.description-course .detail-course li {
+.description-course-1 .detail-course-1 li {
     margin: 10px 0;
 }
 
-.course-1 .image-course {
+.description-course-1 .detail-course-1 i {
+    color:rgb(255, 88, 160);
+    padding-right: 4px;
+}
+
+.course-1 .image-course-1 {
     flex-basis: 50%;
     background: url("/assets/imgs/img6.jpg") no-repeat ;
     background-size: cover;
@@ -89,7 +94,7 @@
     font-size: 14px;
     border: none;
     cursor: pointer;
-    padding: 0 40px;
+    padding: 0 45px;
 }
 
 .course-1 .button-course button:hover {
