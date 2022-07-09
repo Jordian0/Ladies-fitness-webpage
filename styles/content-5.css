@@ -47,21 +47,36 @@
     width: 348px;
     margin: 0 20px;
 
-    position: relative;
+    /* position: relative; */
 }
 
 .content-5 .top-content {
     background: rgba(247, 245, 251, 0.4);
+    display:flex;
+
+    position: relative;
     
+    width: 348px;
+    height: 300px;
 }
 
 .content-5 .top-content h2 {
     font-weight: bold;
     text-align: center;
+
+    margin: auto;
 }
 
 .content-5 .polygon-box {
+    display: block;
+    background-color: rgba(247, 245, 251, 0.4);
 
+    position: absolute;
+    /* top: -200px;
+    right: 80px; */
+
+    width: 180px;
+    height: 180px;
 }
 
 .content-5 .bottom-content {
