@@ -10,61 +10,73 @@
     <!-- <link rel="stylesheet" href="https://kit.fontawesome.com/e23e9f255c.js" crossorigin="anonymous"> -->
 
     <!-- <link rel="stylesheet" href="./assets/fonts/Poppins/OFL.txt"> -->
-    <link href="http://fonts.googleapis.com/css?family=Poppins" rel="stylesheet" type="text/css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./styles/styles.css">
     <link rel="stylesheet" href="./scripts/index.js">
 
 </head>
 <body>
     <!-- Navigation -->
-    <div >
-        <div id = 'nav'>
-            <ul class="nav-1">
-                <li>
-                    <a>
-                        <img src = "./assets/imgs/logo-1.png" alt = "logo">
-                    </a>
-                </li>
-            </ul>
-            <ul class="nav-2">
-                <li><a href="">Fitness packages</a></li>
-                <li><a href="">Fitness online</a></li>
-                <li><a href="">Yoga & stretch</a></li>
-                <li><a href="">Contacts</a></li>
-            </ul>
-        </div >
-        <div class = 'slider'>
-            <div class="prev-button">
-                <i class="ti-arrow-circle-left" ></i>
-            </div>
-            <div class="content-slider">
-                <ul>
-                    <li class="serial">
-                        <p class="order">01</p>
-                        <p>/</p>
-                        <p class="total">03</p>
-                    </li>
+    <div>
+        <div class="nav-bar">
+            <div id = 'nav'>
+                <ul class="nav-1">
                     <li>
-                        <h2 class="content-slider_heading">GO fitness zone</h2>
-                        <p class="content-slider_description">
-                            Join the body revolution here at Girls Oly friendly atmosphere.
-                            No matter what your fitness and wellness goals are, GO fitness zone
-                            offers a vast variety of workout activities to improve both your muscle 
-                            strengths and flexibility.
-                        </p>
-                        <button class="content-slider_button">Get in touch</button>
+                        <a>
+                            <img src = "./assets/imgs/logo.png" alt = "logo">
+                        </a>
                     </li>
-                    <li >
-                        <div class="content-slider_dot dot-1"></div>
-                        <div class="content-slider_dot dot-2"></div>
-                        <div class="content-slider_dot dot-3"></div>
-                    </li>
-                </ul> 
-            </div>
-            <div class="next-button">
-                <i class = 'ti-arrow-circle-right'></i>
+                </ul>
+                <div>
+                    <ul class="nav-2">
+                        <li><a href="">Fitness packages</a></li>
+                        <li><a href="">Fitness online</a></li>
+                        <li><a href="">Yoga & stretch</a></li>
+                        <li><a href="">Contacts</a></li>
+                    </ul>
+                </div>
             </div>
         </div>
+
+        <div class="slider-background">
+            <div class = 'slider'>
+                <div class="prev-button">
+                    <i class="ti-arrow-circle-left" ></i>
+                </div>
+                <div class="content-slider">
+                    <ul>
+                        <li class="serial">
+                            <p class="order">01</p>
+                            <p>/</p>
+                            <p class="total">03</p>
+                        </li>
+                        <li>
+                            <h2 class="content-slider_heading">GO fitness zone</h2>
+                            <p class="content-slider_description">
+                                Join the body revolution here at Girls Oly friendly atmosphere.
+                                No matter what your fitness and wellness goals are, GO fitness zone
+                                offers a vast variety of workout activities to improve both your muscle
+                                strengths and flexibility.
+                            </p>
+                            <button class="content-slider_button">Get in touch</button>
+                        </li>
+                        <li id="slider-3-dots">
+                            <div class="content-slider_dot dot-1"></div>
+                            <div class="content-slider_dot dot-2"></div>
+                            <div class="content-slider_dot dot-3"></div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="next-button">
+                    <i class = 'ti-arrow-circle-right'></i>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div>
         <div class="content-1 discounted-price" >
             <h4>Join today and get 20% off!</h4>
             <p>Come and give us a visit and get your first workout at GO fitness zone with a discounted price 🔥</p>
@@ -74,9 +86,9 @@
         </div>
         <div class="content-1 course-1">
             <div class="description-course-1">
-                <h4>Fitness online <br/> Get efficient workouts at home</h4>
+                <h4>Fitness online <br/> Get efficient workouts at<br/> home</h4>
                 <p>Getting fit isn't meant to be a struggle. In case it's hard for you to committing regular gym sessions,
-                     'GO zone' offers an online community that is hosted on Facebook, within which you can access a 
+                     'GO zone' offers an online community that is hosted on Facebook, within which you can access a
                      range of amazing fitness goodies like home workouts, live workout sessions, online support, and various
                       tips and advice. Join our online fitness community today.
                 </p>
@@ -100,7 +112,7 @@
                 </div>
             </div>
             <div class="image-course-1">
-              
+
             </div>
 
         </div>
@@ -109,15 +121,25 @@
         </div>
         <div class="content-2 course-2">
             <div class="image-course-2">
-                <img src = "./assets/imgs/img5.jpg" alt = "img-5">
-                <img src = "./assets/imgs/img11.jpg" alt = "img-11">
-                <img src = "./assets/imgs/img7.jpg" alt = "img-7">
-                <img src = "./assets/imgs/img12.jpg" alt = "img-12">
+                <div class="img-container-course-2">
+                    <div id="content-2-img1">
+                        <img src = "./assets/imgs/img5.jpg" alt = "img-5">
+                    </div>
+                    <div id="content-2-img2">
+                        <img src = "./assets/imgs/img11.jpg" alt = "img-11">
+                    </div>
+                    <div id="content-2-img3">
+                        <img src = "./assets/imgs/img7.jpg" alt = "img-7">
+                    </div>
+                    <div id="content-2-img4">
+                        <img src = "./assets/imgs/img12.jpg" alt = "img-12">
+                    </div>
+                </div>
             </div>
             <div class="description-course">
                 <h4>Yoga and stretching</h4>
                 <p>GO fitness zone is working with yoga expert Cindy Meberly to bring you months of yoga
-                     and mindfulness workshops. Our group stretching and yoga body-therapy sessions will 
+                     and mindfulness workshops. Our group stretching and yoga body-therapy sessions will
                      improve your flexibility by increasing the range of motion. Our sessions are focused
                       on gaining a sense of renewal and awakening, relaxing, and relieving stress.
                 </p>
@@ -149,7 +171,7 @@
             <ul class="list-instructors">
                 <li>
                     <img src = "./assets/imgs/img1.jpg" alt = "img-1" />
-            
+
                     <div class="text-instructor">
                         <h5>Cindy</h5>
                         <p>
@@ -159,7 +181,7 @@
                 </li>
                 <li>
                     <img src = "./assets/imgs/img3.jpg" alt = "img-3" />
-                    
+
                     <div class="text-instructor">
                         <h5>Teresa</h5>
                         <p>
@@ -169,7 +191,7 @@
                 </li>
                 <li>
                     <img src = "./assets/imgs/img9.jpg" alt = "img-9" />
-                    
+
                     <div class="text-instructor">
                         <h5>Verica</h5>
                         <p>Fitness personal trainer and TRX instructor</p>
@@ -177,7 +199,7 @@
                 </li>
                 <li>
                     <img src = "./assets/imgs/img10.jpg" alt = "img-10" />
-                    
+
                     <div class="text-instructor">
                         <h5>Adrienne</h5>
                         <p>Fitness trainer, yoga and stretching instructor</p>
@@ -313,6 +335,7 @@
                             </ul>
                             <div class="content-5-button_2">
                                 <button>Join today</button>                        
+                            </div>
                         </div>
                     </div>
                 </li>
@@ -364,7 +387,8 @@
                                 </li>
                             </ul>
                             <div class="content-5-button_3">
-                                <button>Join today</button>                        
+                                <button>Join today</button>
+                            </div>
                         </div>
                     </div>
                 </li>
@@ -440,16 +464,22 @@
                 <form>
                     <div class="get-inform">
                         <div class="get-name">
-                            <input type = "text" placeholder = "Your name*" />
+                            <label>
+                                <input type = "text" placeholder = "Your name*" />
+                            </label>
                             <div style = "font-weight: 598; font-size: 19px; margin-top: 16px; margin-left: -32px;">*</div>
                         </div>
                         <div class="get-email">
-                            <input type = 'text' placeholder="Your Email*" />
+                            <label>
+                                <input type = 'text' placeholder="Your Email*" />
+                            </label>
                             <div style = "font-weight: 598; font-size: 19px; margin-top: 16px; margin-left: -32px;">*</div>
                         </div>
                         <div class="content-form">
                             <!-- <input type = "box" style="" placeholder="Training you want to join..." /> -->
-                            <textarea name="message" placeholder="Training you want to join..."></textarea>
+                            <label>
+                                <textarea name="message" placeholder="Training you want to join..."></textarea>
+                            </label>
                         </div>
                     </div>
                     <div class="send-form-btn">
@@ -499,7 +529,9 @@
                         </p>
                     </li>
                     <li style="margin-right: 200px">
-                        <input type = "text" placeholder="Enter your email" />
+                        <label>
+                            <input type = "text" placeholder="Enter your email" />
+                        </label>
                         <button class = "get-notified-btn" >
                             Get notified
                         </button>
@@ -517,11 +549,11 @@
                     <a href="#">
                         <i class="ti-instagram"></i>
                     </a>
-                   
+
                 </div>
             </div>
         </div>
     </div>
-    
+
 </body>
 </html>
