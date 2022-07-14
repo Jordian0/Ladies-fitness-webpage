@@ -1,10 +1,8 @@
 .slider {
     width: 100%;
     height: 940px;
-    background: url('../assets/imgs/slide1.jpg') ;
-    background-repeat: no-repeat;
+    background: linear-gradient(rgba(56, 37, 92, 0), rgba(56, 37, 92, 0)), url('../assets/imgs/slide1.jpg') center center / cover no-repeat;
     background-size: 100% ;
-    background-position: center;
 
     display: flex;
     flex-direction: row;
@@ -19,7 +17,7 @@
     margin: 0 190px;
     width: 100%;
     height: 100%;
-    
+
 }
 
 .content-slider ul {
@@ -73,6 +71,7 @@
     color: #ddd;
     font-size: 19px;
     width: 42%;
+    height: 175px;
     font-weight: normal;
     padding-bottom: 30px;
 }
@@ -98,7 +97,7 @@
     height: 10px;
     background-color: transparent;
     border-radius: 50%;
-    margin: 0 5px;
+    margin: 0 5px -200px ;
     display: inline-block;
     cursor: pointer;
     border: solid #ddd 1px;
