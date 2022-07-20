@@ -210,7 +210,22 @@ sendButton.addEventListener('click', (e) => {
 
 
 
-// 6. make animation when click the get-notified button
+// 6. make animation when click the get-notified button (done)
+const getNotifiedButton = document.querySelector('.get-notified-btn');
+const emailNotified = document.querySelector('.email-notified');
+getNotifiedButton.addEventListener('click', () => {
+    if (emailNotified.value === '') {
+        const footer = document.querySelector('.footer');
+        const alertEmail = footer.querySelector('.alert-empty_inputEmail');
+        alertEmail.style.display = 'block';
+        emailNotified.style.border = '1px solid red';
+    } else {
+        const footer = document.querySelector('.footer');
+        const alertEmail = footer.querySelector('.alert-empty_inputEmail');
+        alertEmail.style.display = 'none';
+        emailNotified.style.border = '1px solid #ccc';
+    }
+})
 
 
 
@@ -307,5 +322,5 @@ dot4_content6.addEventListener('click', () => {
 });
 
 
-// 12. change background color of button onClick
-// button:active {} (done)
+// 12. change background color of button onClick (done)
+// button:active {} 
